@@ -140,7 +140,7 @@ img {
     }
 
     .wrapper {
-        width: 300px;
+        width: 280px;
         margin: 0 auto;
     }
 
@@ -150,7 +150,12 @@ img {
 
     .brand {
         padding-top: 0;
-        min-height: 550px;
+        min-height: 510px;
+    }
+
+    .brand h1 {
+        padding-top: 30px;
+        font-size: 56px;
     }
 
     .brand .coming-soon {
@@ -159,7 +164,7 @@ img {
 
     .screenshot {
         /*position: relative;*/
-        width: 300px;
+        width: 280px;
         top: 250px;
     }
 
@@ -167,6 +172,7 @@ img {
         /*margin-top: 350px;*/
         font-size: 14px;
         padding-top: 80px;
+        min-height: 150px;
     }
 
     .footer .gutter {
