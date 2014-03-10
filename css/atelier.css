@@ -9,7 +9,8 @@
 
 html {
     /*background-color: #5ebbae;*/
-    background-color: #63B3AA;
+    /*background-color: #63B3AA;*/
+    background-color: #68B3A9;
 }
 
 body {
@@ -30,8 +31,7 @@ img {
 }
 
 .brand {
-    /*background-color: #404041;*/
-    background-color: #3f3f3f;
+    background-color: #404040;
     color: white;
     min-height: 560px;
     /*padding-top: 100px;*/
@@ -75,8 +75,9 @@ img {
 }
 
 .footer {
+    background-color: #68B3A9;
     /*background-color: #5ebbae;*/
-    background-color: #63B3AA;
+    /*background-color: #63B3AA;*/
     min-height: 200px;
     /*color: white;*/
 }
