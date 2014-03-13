@@ -80,11 +80,7 @@ img {
     /*background-color: #63B3AA;*/
     min-height: 200px;
     /*color: white;*/
-}
-
-.footer .gutter {
     color: #666;
-    margin: 0 5px;
 }
 
 .footer a,
@@ -99,8 +95,17 @@ img {
     text-decoration: underline;
 }
 
+.footer .gutter {
+    
+    margin: 0 5px;
+}
+
+.footer .social {
+    display: none;
+}
+
 /* 500px layout */
-@media (max-width: 780px){
+@media (max-width: 1000px){
     body {
         min-width: 0;
         width: 100%;
@@ -118,20 +123,25 @@ img {
 
     .brand {
         padding-top: 0;
-        min-height: 770px;
+        min-height: 810px;
     }
 
     .brand .coming-soon {
        margin-top: 30px;
     }
 
+    .brand .store {
+        margin-top: 20px;
+        /*margin-bottom: 10px;*/
+    }
+
     .screenshot {
         width: 500px;
-        top: 250px;
+        top: 300px;
     }
 
     .footer {
-        padding-top: 100px;
+        padding-top: 110px;
     }
 }
 
@@ -154,7 +164,7 @@ img {
 
     .brand {
         padding-top: 0;
-        min-height: 510px;
+        min-height: 530px;
     }
 
     .brand h1 {
@@ -166,10 +176,15 @@ img {
        margin-top: 30px;
     }
 
+    .brand .store {
+        margin-top: 20px;
+        /*margin-bottom: 10px;*/
+    }
+
     .screenshot {
         /*position: relative;*/
         width: 280px;
-        top: 250px;
+        top: 260px;
     }
 
     .footer {
@@ -180,6 +195,6 @@ img {
     }
 
     .footer .gutter {
-        margin: 0;
+        /*margin: 0;*/
     }
 }
