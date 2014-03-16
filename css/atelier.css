@@ -63,7 +63,7 @@ img {
 }
 
 .brand .store {
-    display: none;
+    /*display: none;*/
     width: 180px;
     margin-top: 260px;
 }
@@ -164,7 +164,7 @@ img {
 
     .brand {
         padding-top: 0;
-        min-height: 530px;
+        min-height: 560px;
     }
 
     .brand h1 {
@@ -178,13 +178,13 @@ img {
 
     .brand .store {
         margin-top: 20px;
-        /*margin-bottom: 10px;*/
+        /*margin-bottom: 30px;*/
     }
 
     .screenshot {
         /*position: relative;*/
         width: 280px;
-        top: 260px;
+        top: 290px;
     }
 
     .footer {
